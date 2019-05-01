@@ -283,7 +283,7 @@
             // 
             // headImage
             // 
-            this.headImage.Image = global::hangman.Properties.Resources.trump;
+            this.headImage.Image = global::hangman.Properties.Resources.head1;
             this.headImage.Location = new System.Drawing.Point(302, 43);
             this.headImage.Name = "headImage";
             this.headImage.Size = new System.Drawing.Size(100, 100);
