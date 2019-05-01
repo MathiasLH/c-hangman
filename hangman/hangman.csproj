@@ -98,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
@@ -114,6 +115,99 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenlegleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chickenlegright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trump.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witchlegleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witchlegright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftarm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftarm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftarm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftleg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftleg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftleg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popeye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarm1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarm2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarm3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightleg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightleg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightleg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shrek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statuehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stickman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torso1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torso2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\torso3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trump1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witchlegleft1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witchlegright1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
