@@ -19,7 +19,8 @@ namespace hangman
         Bitmap[] leftLegImages;
         Bitmap[] rightLegImages;
         //int currentHead, currentTorso, currentLeftArm, currentRightArm, currentLeftLeg, currentRightLeg;
-
+        GameLogic game;
+        
         public Game()
         {
             InitializeComponent();
@@ -98,12 +99,65 @@ namespace hangman
             leftLegImage.Image = leftLegImages[bodyParts[4]];
             //currentRightLeg = bodyParts[5];
             rightLegImage.Image = rightLegImages[bodyParts[5]];
+            String testWord = "yeet";
+            game = new GameLogic(testWord);
+            displayWordBox.Text = game.getDisplayWord();
+
         }
 
         private void back_button_Click(object sender, EventArgs e)
         {
             MainMenu mainmenu = new MainMenu();
             Parent.Controls.Add(mainmenu);
+            Parent.Controls.Remove(this);
+            
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyValue == 13)
+            {
+                int result = game.guessLetter(input.Text);
+                if(result == 3)
+                {
+                    loseLife();
+                }
+                usedLettersLabel.Text += input.Text;
+                input.Text = "";
+                displayWordBox.Text = game.getDisplayWord();
+            }
+        }
+
+        private void loseLife()
+        {
+            switch (game.numberOfLives)
+            {
+                case 4:
+                    leftArmImage.Visible = false;
+                    break;
+                case 3:
+                    rightArmImage.Visible = false;
+                    break;
+                case 2:
+                    leftLegImage.Visible = false;
+                    break;
+                case 1:
+                    rightLegImage.Visible = false;
+                    break;
+                case 0:
+                    torsoImage.Visible = false;
+                    tryAgainButton.Visible = true;
+                    gameOverLabel.Visible = true;
+                    input.Enabled = false;
+                    break;
+
+            }
+        }
+
+        private void tryAgainButton_Click(object sender, EventArgs e)
+        {
+            Game newGame = new Game();
+            Parent.Controls.Add(newGame);
             Parent.Controls.Remove(this);
         }
     }
