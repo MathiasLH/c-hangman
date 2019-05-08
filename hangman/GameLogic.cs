@@ -8,9 +8,11 @@ class GameLogic
     private String[] displayWord, letterArray;
     private int lettersLeft;
     public int numberOfLives;
+    public String word = "";
 
     public GameLogic(String playWord)
     {
+        word = playWord;
         Console.WriteLine("playword is: " + playWord);
 
         letterArray = new string[playWord.Length];

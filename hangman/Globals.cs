@@ -9,6 +9,6 @@ namespace hangman
     static class Globals
     {
         public static int[] bodyParts = new int[6]; //0 = head, 1 = torso, 2 = left arm, 3 = right arm, 4 = left leg, 5 = right leg
-
+        public static int language = 0;
     }
 }

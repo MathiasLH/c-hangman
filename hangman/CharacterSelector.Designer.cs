@@ -64,32 +64,35 @@
             // back_button
             // 
             this.back_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.back_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.back_button.Location = new System.Drawing.Point(3, 3);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(150, 50);
             this.back_button.TabIndex = 9;
             this.back_button.Text = "Go back";
-            this.back_button.UseVisualStyleBackColor = true;
+            this.back_button.UseVisualStyleBackColor = false;
             this.back_button.Click += new System.EventHandler(this.back_button_Click);
             // 
             // nextRightLegButton
             // 
+            this.nextRightLegButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.nextRightLegButton.Location = new System.Drawing.Point(115, 302);
             this.nextRightLegButton.Name = "nextRightLegButton";
             this.nextRightLegButton.Size = new System.Drawing.Size(25, 25);
             this.nextRightLegButton.TabIndex = 44;
             this.nextRightLegButton.Text = "->";
-            this.nextRightLegButton.UseVisualStyleBackColor = true;
+            this.nextRightLegButton.UseVisualStyleBackColor = false;
             this.nextRightLegButton.Click += new System.EventHandler(this.nextRightLegButton_Click);
             // 
             // prevRightLegButton
             // 
+            this.prevRightLegButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.prevRightLegButton.Location = new System.Drawing.Point(15, 303);
             this.prevRightLegButton.Name = "prevRightLegButton";
             this.prevRightLegButton.Size = new System.Drawing.Size(25, 25);
             this.prevRightLegButton.TabIndex = 43;
             this.prevRightLegButton.Text = "<-";
-            this.prevRightLegButton.UseVisualStyleBackColor = true;
+            this.prevRightLegButton.UseVisualStyleBackColor = false;
             this.prevRightLegButton.Click += new System.EventHandler(this.prevRightLegButton_Click);
             // 
             // label7
@@ -103,22 +106,24 @@
             // 
             // nextLeftLegButton
             // 
+            this.nextLeftLegButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.nextLeftLegButton.Location = new System.Drawing.Point(114, 271);
             this.nextLeftLegButton.Name = "nextLeftLegButton";
             this.nextLeftLegButton.Size = new System.Drawing.Size(25, 25);
             this.nextLeftLegButton.TabIndex = 41;
             this.nextLeftLegButton.Text = "->";
-            this.nextLeftLegButton.UseVisualStyleBackColor = true;
+            this.nextLeftLegButton.UseVisualStyleBackColor = false;
             this.nextLeftLegButton.Click += new System.EventHandler(this.nextLeftLegButton_Click);
             // 
             // prevLeftLegButton
             // 
+            this.prevLeftLegButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.prevLeftLegButton.Location = new System.Drawing.Point(15, 271);
             this.prevLeftLegButton.Name = "prevLeftLegButton";
             this.prevLeftLegButton.Size = new System.Drawing.Size(25, 25);
             this.prevLeftLegButton.TabIndex = 40;
             this.prevLeftLegButton.Text = "<-";
-            this.prevLeftLegButton.UseVisualStyleBackColor = true;
+            this.prevLeftLegButton.UseVisualStyleBackColor = false;
             this.prevLeftLegButton.Click += new System.EventHandler(this.prevLeftLegButton_Click);
             // 
             // label6
@@ -132,22 +137,24 @@
             // 
             // nextRightArmButton
             // 
+            this.nextRightArmButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.nextRightArmButton.Location = new System.Drawing.Point(114, 240);
             this.nextRightArmButton.Name = "nextRightArmButton";
             this.nextRightArmButton.Size = new System.Drawing.Size(25, 25);
             this.nextRightArmButton.TabIndex = 38;
             this.nextRightArmButton.Text = "->";
-            this.nextRightArmButton.UseVisualStyleBackColor = true;
+            this.nextRightArmButton.UseVisualStyleBackColor = false;
             this.nextRightArmButton.Click += new System.EventHandler(this.nextRightArmButton_Click);
             // 
             // prevRightArmButton
             // 
+            this.prevRightArmButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.prevRightArmButton.Location = new System.Drawing.Point(15, 240);
             this.prevRightArmButton.Name = "prevRightArmButton";
             this.prevRightArmButton.Size = new System.Drawing.Size(25, 25);
             this.prevRightArmButton.TabIndex = 37;
             this.prevRightArmButton.Text = "<-";
-            this.prevRightArmButton.UseVisualStyleBackColor = true;
+            this.prevRightArmButton.UseVisualStyleBackColor = false;
             this.prevRightArmButton.Click += new System.EventHandler(this.prevRightArmButton_Click);
             // 
             // label5
@@ -161,22 +168,24 @@
             // 
             // nextLeftArmButton
             // 
+            this.nextLeftArmButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.nextLeftArmButton.Location = new System.Drawing.Point(114, 207);
             this.nextLeftArmButton.Name = "nextLeftArmButton";
             this.nextLeftArmButton.Size = new System.Drawing.Size(25, 25);
             this.nextLeftArmButton.TabIndex = 35;
             this.nextLeftArmButton.Text = "->";
-            this.nextLeftArmButton.UseVisualStyleBackColor = true;
+            this.nextLeftArmButton.UseVisualStyleBackColor = false;
             this.nextLeftArmButton.Click += new System.EventHandler(this.nextLeftArmButton_Click);
             // 
             // prevLeftArmButton
             // 
+            this.prevLeftArmButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.prevLeftArmButton.Location = new System.Drawing.Point(15, 207);
             this.prevLeftArmButton.Name = "prevLeftArmButton";
             this.prevLeftArmButton.Size = new System.Drawing.Size(25, 25);
             this.prevLeftArmButton.TabIndex = 34;
             this.prevLeftArmButton.Text = "<-";
-            this.prevLeftArmButton.UseVisualStyleBackColor = true;
+            this.prevLeftArmButton.UseVisualStyleBackColor = false;
             this.prevLeftArmButton.Click += new System.EventHandler(this.prevLeftArmButton_Click);
             // 
             // label4
@@ -190,22 +199,24 @@
             // 
             // nextTorsoButton
             // 
+            this.nextTorsoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.nextTorsoButton.Location = new System.Drawing.Point(114, 175);
             this.nextTorsoButton.Name = "nextTorsoButton";
             this.nextTorsoButton.Size = new System.Drawing.Size(25, 25);
             this.nextTorsoButton.TabIndex = 32;
             this.nextTorsoButton.Text = "->";
-            this.nextTorsoButton.UseVisualStyleBackColor = true;
+            this.nextTorsoButton.UseVisualStyleBackColor = false;
             this.nextTorsoButton.Click += new System.EventHandler(this.nextTorsoButton_Click);
             // 
             // prevTorsoButton
             // 
+            this.prevTorsoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.prevTorsoButton.Location = new System.Drawing.Point(15, 175);
             this.prevTorsoButton.Name = "prevTorsoButton";
             this.prevTorsoButton.Size = new System.Drawing.Size(25, 25);
             this.prevTorsoButton.TabIndex = 31;
             this.prevTorsoButton.Text = "<-";
-            this.prevTorsoButton.UseVisualStyleBackColor = true;
+            this.prevTorsoButton.UseVisualStyleBackColor = false;
             this.prevTorsoButton.Click += new System.EventHandler(this.prevTorsoButton_Click);
             // 
             // label3
@@ -228,12 +239,13 @@
             // 
             // prevHeadButton
             // 
+            this.prevHeadButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.prevHeadButton.Location = new System.Drawing.Point(15, 139);
             this.prevHeadButton.Name = "prevHeadButton";
             this.prevHeadButton.Size = new System.Drawing.Size(25, 25);
             this.prevHeadButton.TabIndex = 27;
             this.prevHeadButton.Text = "<-";
-            this.prevHeadButton.UseVisualStyleBackColor = true;
+            this.prevHeadButton.UseVisualStyleBackColor = false;
             this.prevHeadButton.Click += new System.EventHandler(this.prevHeadButton_Click);
             // 
             // leftLegImage
@@ -293,12 +305,13 @@
             // 
             // nextHeadButton
             // 
+            this.nextHeadButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.nextHeadButton.Location = new System.Drawing.Point(114, 139);
             this.nextHeadButton.Name = "nextHeadButton";
             this.nextHeadButton.Size = new System.Drawing.Size(25, 25);
             this.nextHeadButton.TabIndex = 52;
             this.nextHeadButton.Text = "->";
-            this.nextHeadButton.UseVisualStyleBackColor = true;
+            this.nextHeadButton.UseVisualStyleBackColor = false;
             this.nextHeadButton.Click += new System.EventHandler(this.nextHeadButton_Click_1);
             // 
             // CharacterSelector

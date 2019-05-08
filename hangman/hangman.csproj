@@ -52,6 +52,7 @@
     <Compile Include="CharacterSelector.Designer.cs">
       <DependentUpon>CharacterSelector.cs</DependentUpon>
     </Compile>
+    <Compile Include="wordFetcher.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

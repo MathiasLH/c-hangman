@@ -99,10 +99,20 @@ namespace hangman
             leftLegImage.Image = leftLegImages[bodyParts[4]];
             //currentRightLeg = bodyParts[5];
             rightLegImage.Image = rightLegImages[bodyParts[5]];
+            String fetchedWord = wordFetcher.FetchWord(Globals.language);
             String testWord = "yeet";
-            game = new GameLogic(testWord);
+            game = new GameLogic(fetchedWord);
             displayWordBox.Text = game.getDisplayWord();
-
+            if(Globals.language == 0)
+            {
+                langaugeLabel.Text = langaugeLabel.Text + "Danish";
+            }else if(Globals.language == 1)
+            {
+                langaugeLabel.Text = langaugeLabel.Text + "English";
+            }else if(Globals.language == 2)
+            {
+                langaugeLabel.Text = langaugeLabel.Text + "German";
+            }
         }
 
         private void back_button_Click(object sender, EventArgs e)
@@ -125,6 +135,14 @@ namespace hangman
                 usedLettersLabel.Text += input.Text;
                 input.Text = "";
                 displayWordBox.Text = game.getDisplayWord();
+                if(game.checkPlayerStatus() == 2)
+                {
+                    //game won
+                    input.Enabled = false;
+                    gameOverLabel.Visible = true;
+                    gameOverLabel.Text = "You win!";
+                    tryAgainButton.Visible = true;
+                }
             }
         }
 
@@ -148,6 +166,7 @@ namespace hangman
                     torsoImage.Visible = false;
                     tryAgainButton.Visible = true;
                     gameOverLabel.Visible = true;
+                    gameOverLabel.Text = gameOverLabel.Text + "\n the word was " + game.word;
                     input.Enabled = false;
                     break;
 

@@ -102,7 +102,7 @@ namespace hangman
 
         private void back_button_Click(object sender, EventArgs e)
         {
-            int[] bodyparts = { currentHead, currentTorso, currentLeftArm, currentRightArm, currentLeftLeg, currentRightArm };
+            int[] bodyparts = { currentHead, currentTorso, currentLeftArm, currentRightArm, currentLeftLeg, currentRightLeg };
             Globals.bodyParts = bodyparts;
             MainMenu mainmenu = new MainMenu();
             Parent.Controls.Add(mainmenu);
@@ -227,6 +227,7 @@ namespace hangman
                 currentRightLeg = rightLegImages.Length - 1;
             }
             rightLegImage.Image = rightLegImages[currentRightLeg];
+            Console.WriteLine(currentRightLeg);
         }
 
         private void nextRightLegButton_Click(object sender, EventArgs e)
@@ -237,6 +238,8 @@ namespace hangman
                 currentRightLeg = 0;
             }
             rightLegImage.Image = rightLegImages[currentRightLeg];
+            Console.WriteLine(currentRightLeg);
+            
         }
     }
 }

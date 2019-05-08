@@ -42,6 +42,7 @@
             this.displayWordBox = new System.Windows.Forms.Label();
             this.tryAgainButton = new System.Windows.Forms.Button();
             this.gameOverLabel = new System.Windows.Forms.Label();
+            this.langaugeLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.leftLegImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightLegImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftArmImage)).BeginInit();
@@ -53,12 +54,13 @@
             // back_button
             // 
             this.back_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.back_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.back_button.Location = new System.Drawing.Point(3, 3);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(150, 50);
             this.back_button.TabIndex = 8;
             this.back_button.Text = "Go back";
-            this.back_button.UseVisualStyleBackColor = true;
+            this.back_button.UseVisualStyleBackColor = false;
             this.back_button.Click += new System.EventHandler(this.back_button_Click);
             // 
             // leftLegImage
@@ -161,12 +163,13 @@
             // 
             // tryAgainButton
             // 
+            this.tryAgainButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.tryAgainButton.Location = new System.Drawing.Point(283, 203);
             this.tryAgainButton.Name = "tryAgainButton";
             this.tryAgainButton.Size = new System.Drawing.Size(140, 46);
             this.tryAgainButton.TabIndex = 62;
             this.tryAgainButton.Text = "Try again?";
-            this.tryAgainButton.UseVisualStyleBackColor = true;
+            this.tryAgainButton.UseVisualStyleBackColor = false;
             this.tryAgainButton.Visible = false;
             this.tryAgainButton.Click += new System.EventHandler(this.tryAgainButton_Click);
             // 
@@ -180,10 +183,20 @@
             this.gameOverLabel.Text = "You lose!";
             this.gameOverLabel.Visible = false;
             // 
+            // langaugeLabel
+            // 
+            this.langaugeLabel.AutoSize = true;
+            this.langaugeLabel.Location = new System.Drawing.Point(537, 43);
+            this.langaugeLabel.Name = "langaugeLabel";
+            this.langaugeLabel.Size = new System.Drawing.Size(61, 13);
+            this.langaugeLabel.TabIndex = 64;
+            this.langaugeLabel.Text = "Language: ";
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.langaugeLabel);
             this.Controls.Add(this.gameOverLabel);
             this.Controls.Add(this.tryAgainButton);
             this.Controls.Add(this.displayWordBox);
@@ -227,5 +240,6 @@
         private System.Windows.Forms.Label displayWordBox;
         private System.Windows.Forms.Button tryAgainButton;
         private System.Windows.Forms.Label gameOverLabel;
+        private System.Windows.Forms.Label langaugeLabel;
     }
 }

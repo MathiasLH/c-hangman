@@ -33,7 +33,8 @@
             // 
             // mainMenu1
             // 
-            this.mainMenu1.Location = new System.Drawing.Point(12, 12);
+            this.mainMenu1.BackColor = System.Drawing.Color.White;
+            this.mainMenu1.Location = new System.Drawing.Point(1, 1);
             this.mainMenu1.Name = "mainMenu1";
             this.mainMenu1.Size = new System.Drawing.Size(710, 387);
             this.mainMenu1.TabIndex = 0;
@@ -42,6 +43,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(734, 411);
             this.Controls.Add(this.mainMenu1);
             this.Name = "Form1";
