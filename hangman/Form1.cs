@@ -13,6 +13,8 @@ namespace hangman
 {
     public partial class Form1 : Form
     {
+        bool music = true;
+        SoundPlayer sound;
         public Form1()
         {
             InitializeComponent();
@@ -23,8 +25,24 @@ namespace hangman
         private void Form1_Load(object sender, EventArgs e)
         {
             Console.WriteLine("trying to play music");
-            SoundPlayer sound = new SoundPlayer(Properties.Resources.wii);
+            sound = new SoundPlayer(Properties.Resources.wii);
+            
             sound.PlayLooping();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (music == true)
+            {
+                sound.Stop();
+                music = false;
+            }
+            else
+            {
+                sound.PlayLooping();
+                music = true;
+            }
         }
     }
 }
