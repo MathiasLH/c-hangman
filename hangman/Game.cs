@@ -193,7 +193,9 @@ namespace hangman
                     //game won
                     input.Enabled = false;
                     gameOverLabel.Visible = true;
+                    gameOverLabel.ForeColor = System.Drawing.Color.Green;
                     gameOverLabel.Text = "You win!";
+                  
                     tryAgainButton.Visible = true;
                 }
             }
@@ -219,7 +221,10 @@ namespace hangman
                     torsoImage.Visible = false;
                     tryAgainButton.Visible = true;
                     gameOverLabel.Visible = true;
-                    gameOverLabel.Text = gameOverLabel.Text + "\n the word was " + game.word;
+                    
+                    gameOverLabel.ForeColor = System.Drawing.Color.DarkRed;
+                    gameOverLabel.Text = gameOverLabel.Text + "\nThe word was " + game.word;
+                    headImage.Image = Properties.Resources.cry;
                     input.Enabled = false;
                     break;
 
