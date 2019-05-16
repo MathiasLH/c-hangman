@@ -57,8 +57,11 @@
             // 
             this.back_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.back_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
+            this.back_button.FlatAppearance.BorderSize = 0;
+            this.back_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.back_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.back_button.Font = new System.Drawing.Font("Ravie", 10F);
-            this.back_button.Location = new System.Drawing.Point(4, 32);
+            this.back_button.Location = new System.Drawing.Point(0, 32);
             this.back_button.Margin = new System.Windows.Forms.Padding(4);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(200, 62);
@@ -127,6 +130,9 @@
             // tryAgainButton
             // 
             this.tryAgainButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
+            this.tryAgainButton.FlatAppearance.BorderSize = 0;
+            this.tryAgainButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.tryAgainButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tryAgainButton.Font = new System.Drawing.Font("Ravie", 10F);
             this.tryAgainButton.Location = new System.Drawing.Point(378, 217);
             this.tryAgainButton.Margin = new System.Windows.Forms.Padding(4);

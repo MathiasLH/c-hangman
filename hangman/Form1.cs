@@ -37,11 +37,13 @@ namespace hangman
             {
                 sound.Stop();
                 music = false;
+                button1.Text = "🔇";
             }
             else
             {
                 sound.PlayLooping();
                 music = true;
+                button1.Text = "🔊";
             }
         }
 

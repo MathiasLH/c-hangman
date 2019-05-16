@@ -48,7 +48,7 @@
             this.back_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.back_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.back_button.Font = new System.Drawing.Font("Ravie", 10F);
-            this.back_button.Location = new System.Drawing.Point(0, 4);
+            this.back_button.Location = new System.Drawing.Point(0, 32);
             this.back_button.Margin = new System.Windows.Forms.Padding(4);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(248, 62);
@@ -118,7 +118,7 @@
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Ravie", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(4, 73);
+            this.groupBox1.Location = new System.Drawing.Point(4, 120);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
