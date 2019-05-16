@@ -118,50 +118,74 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="chickenlegleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chickenlegleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chickenlegright" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chickenlegright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trump" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="witchlegleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\witchlegleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="witchlegright" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\witchlegright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="krop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\krop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="head1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\head1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="head2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\head2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="head3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\head3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="krop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\krop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="leftarm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftarm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="leftarm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftarm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="leftarm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftarm3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="leftleg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftleg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="leftleg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leftleg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="torso2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\torso2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightarm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightarm3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="torso3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\torso3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightarm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightarm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchlegleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\witchlegleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="leftleg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leftleg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftarm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftarm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchlegleft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\witchlegleft1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shrek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightleg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightleg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftarm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftarm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightleg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightleg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftarm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftarm3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chickenlegleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chickenlegleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leftleg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftleg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightleg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightleg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\head2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="popeye" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\popeye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,23 +193,11 @@
   <data name="rightarm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rightarm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rightarm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rightarm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="witchlegright1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\witchlegright1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rightarm3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rightarm3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rightleg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rightleg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rightleg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rightleg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rightleg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rightleg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shrek.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="witchlegright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\witchlegright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="statuehead" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\statuehead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,19 +208,10 @@
   <data name="torso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\torso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="torso2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\torso2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chickenlegright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chickenlegright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="torso3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\torso3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trump1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trump1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="witchlegleft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\witchlegleft1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="witchlegright1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\witchlegright1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="53082594_368619943867074_5772997767416774656_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\53082594_368619943867074_5772997767416774656_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

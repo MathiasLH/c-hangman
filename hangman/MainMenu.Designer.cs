@@ -32,12 +32,16 @@
             this.settings_button = new System.Windows.Forms.Button();
             this.char_button = new System.Windows.Forms.Button();
             this.play_button = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.leftLegImage = new System.Windows.Forms.PictureBox();
             this.rightLegImage = new System.Windows.Forms.PictureBox();
             this.leftArmImage = new System.Windows.Forms.PictureBox();
             this.rightArmImage = new System.Windows.Forms.PictureBox();
             this.torsoImage = new System.Windows.Forms.PictureBox();
             this.headImage = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftLegImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightLegImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftArmImage)).BeginInit();
@@ -49,7 +53,8 @@
             // quit_button
             // 
             this.quit_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
-            this.quit_button.Location = new System.Drawing.Point(3, 171);
+            this.quit_button.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quit_button.Location = new System.Drawing.Point(3, 293);
             this.quit_button.Name = "quit_button";
             this.quit_button.Size = new System.Drawing.Size(150, 50);
             this.quit_button.TabIndex = 7;
@@ -60,7 +65,8 @@
             // settings_button
             // 
             this.settings_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
-            this.settings_button.Location = new System.Drawing.Point(3, 115);
+            this.settings_button.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.settings_button.Location = new System.Drawing.Point(3, 204);
             this.settings_button.Name = "settings_button";
             this.settings_button.Size = new System.Drawing.Size(150, 50);
             this.settings_button.TabIndex = 6;
@@ -71,7 +77,8 @@
             // char_button
             // 
             this.char_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
-            this.char_button.Location = new System.Drawing.Point(3, 59);
+            this.char_button.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.char_button.Location = new System.Drawing.Point(3, 114);
             this.char_button.Name = "char_button";
             this.char_button.Size = new System.Drawing.Size(150, 50);
             this.char_button.TabIndex = 5;
@@ -83,13 +90,44 @@
             // 
             this.play_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.play_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
-            this.play_button.Location = new System.Drawing.Point(3, 3);
+            this.play_button.Font = new System.Drawing.Font("Ravie", 10F);
+            this.play_button.Location = new System.Drawing.Point(3, 26);
             this.play_button.Name = "play_button";
             this.play_button.Size = new System.Drawing.Size(150, 50);
             this.play_button.TabIndex = 4;
             this.play_button.Text = "Play!";
             this.play_button.UseVisualStyleBackColor = false;
             this.play_button.Click += new System.EventHandler(this.play_button_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(524, 81);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 30);
+            this.label1.TabIndex = 57;
+            this.label1.Text = "SaveMe";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Ravie", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(483, 59);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(192, 22);
+            this.label2.TabIndex = 58;
+            this.label2.Text = "Are you ready to";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::hangman.Properties.Resources._53082594_368619943867074_5772997767416774656_n;
+            this.pictureBox1.Location = new System.Drawing.Point(470, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(218, 191);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 59;
+            this.pictureBox1.TabStop = false;
             // 
             // leftLegImage
             // 
@@ -150,6 +188,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.leftLegImage);
             this.Controls.Add(this.rightLegImage);
             this.Controls.Add(this.leftArmImage);
@@ -160,8 +200,10 @@
             this.Controls.Add(this.settings_button);
             this.Controls.Add(this.char_button);
             this.Controls.Add(this.play_button);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "MainMenu";
             this.Size = new System.Drawing.Size(710, 387);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftLegImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightLegImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftArmImage)).EndInit();
@@ -169,6 +211,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.torsoImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.headImage)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -184,5 +227,8 @@
         private System.Windows.Forms.PictureBox rightArmImage;
         private System.Windows.Forms.PictureBox torsoImage;
         private System.Windows.Forms.PictureBox headImage;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

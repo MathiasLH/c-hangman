@@ -1,29 +1,31 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using System.Collections;
+using hangman;
 
 class GameLogic
 {
-    private Stack guessedLetters = new Stack();
+    public Stack guessedLetters = new Stack();
     private String[] displayWord, letterArray;
     private int lettersLeft;
     public int numberOfLives;
     public String word = "";
 
-    public GameLogic(String playWord)
+    public GameLogic(String word)
     {
-        word = playWord;
-        Console.WriteLine("playword is: " + playWord);
+        this.word = word.ToLower();
+        
+        Console.WriteLine("playword is: " + this.word);
 
-        letterArray = new string[playWord.Length];
-        char[] charArr = playWord.ToCharArray();
-        for (int i = 0; i < playWord.Length; i++)
+        letterArray = new string[word.Length];
+        char[] charArr = word.ToCharArray();
+        for (int i = 0; i < word.Length; i++)
         {
             letterArray[i] = charArr[i].ToString();
         }
 
-        displayWord = new String[playWord.Length];
-        lettersLeft = playWord.Length;
+        displayWord = new String[word.Length];
+        lettersLeft = word.Length;
 
         for (int i = 0; i < displayWord.Length; i++)
         {
@@ -88,7 +90,25 @@ class GameLogic
 
     private bool checkRegex(String letter)
     {
-        Regex _regex = new Regex(@"[^ 0 - 9]");
+        //finds langauge in static global
+        
+        int langInt = Globals.language;
+        Regex _regex = null;
+        switch (langInt)
+        {
+            case 0:
+                _regex = new Regex(@"[a-zæøå]");
+                break;
+            case 1:
+                _regex = new Regex(@"[a-z]");
+                break;
+            case 2:
+                _regex = new Regex(@"[a-zöüä]");
+                break;
+            default:
+                Console.WriteLine("Language Default Hit");
+                break;
+        }
         //check if letter is correct format
         Match match = _regex.Match(letter);
         if (match.Success)

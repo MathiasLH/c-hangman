@@ -131,8 +131,23 @@ namespace hangman
                 if(result == 3)
                 {
                     loseLife();
+                    errorLabel.Text = "Your guess was incorrect";
+                }else if(result == 0)
+                {
+                    errorLabel.Text = "You entered an incorrect letter.";
+                }else if(result == 1)
+                {
+                    errorLabel.Text = "You have already guessed that letter!";
+                }else if(result == 2)
+                {
+                    errorLabel.Text = "The letter was correct!";
                 }
-                usedLettersLabel.Text += input.Text;
+                String godString = ""; 
+                    foreach(string a in game.guessedLetters)
+                {
+                    godString += a + " ";
+                }
+                usedLettersLabel.Text = godString;
                 input.Text = "";
                 displayWordBox.Text = game.getDisplayWord();
                 if(game.checkPlayerStatus() == 2)

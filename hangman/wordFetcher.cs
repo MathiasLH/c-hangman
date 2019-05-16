@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace hangman
@@ -30,11 +31,12 @@ namespace hangman
             Random rnd = new Random();
             int index = rnd.Next(Words.Length);
             var word = Words[index];
+            String goodWord = Regex.Replace(word, @"\t|\n|\r", "");
             //WriteFile(Words);
 
-            Console.WriteLine("The Word is:" + word);
+            Console.WriteLine("The Word is:" + goodWord);
 
-            return word;
+            return goodWord;
         }
 
         public static string[] jasonToArray(string downloadWordList)

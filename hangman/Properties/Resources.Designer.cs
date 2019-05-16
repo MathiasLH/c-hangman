@@ -63,6 +63,16 @@ namespace hangman.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _53082594_368619943867074_5772997767416774656_n {
+            get {
+                object obj = ResourceManager.GetObject("53082594_368619943867074_5772997767416774656_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chickenlegleft {
             get {
                 object obj = ResourceManager.GetObject("chickenlegleft", resourceCulture);

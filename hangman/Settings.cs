@@ -25,6 +25,7 @@ namespace hangman
                     break;
                 case 2:
                     radioButton3.Checked = true;
+                    
                     break;
             }
         }
