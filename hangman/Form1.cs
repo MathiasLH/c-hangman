@@ -24,7 +24,7 @@ namespace hangman
         {
             Console.WriteLine("trying to play music");
             SoundPlayer sound = new SoundPlayer(Properties.Resources.wii);
-            sound.Play();
+            sound.PlayLooping();
         }
     }
 }
