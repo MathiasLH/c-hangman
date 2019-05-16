@@ -139,6 +139,9 @@
   <data name="torso3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\torso3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="53082594_368619943867074_5772997767416774656_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\53082594_368619943867074_5772997767416774656_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rightarm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rightarm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,8 +151,8 @@
   <data name="leftleg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leftleg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="leftarm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leftarm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chickenlegleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chickenlegleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trump" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trump.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -174,9 +177,6 @@
   </data>
   <data name="head3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\head3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chickenlegleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chickenlegleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="leftleg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leftleg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,10 +208,13 @@
   <data name="torso1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\torso1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="leftarm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftarm1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="chickenlegright" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chickenlegright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="53082594_368619943867074_5772997767416774656_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\53082594_368619943867074_5772997767416774656_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cry1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -215,5 +215,9 @@
   <ItemGroup>
     <None Include="Resources\53082594_368619943867074_5772997767416774656_n.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\cry.gif" />
+    <None Include="Resources\cry1.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

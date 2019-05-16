@@ -93,6 +93,16 @@ namespace hangman.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cry {
+            get {
+                object obj = ResourceManager.GetObject("cry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap head1 {
             get {
                 object obj = ResourceManager.GetObject("head1", resourceCulture);

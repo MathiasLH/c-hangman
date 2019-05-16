@@ -66,7 +66,7 @@
             this.back_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.back_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
             this.back_button.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_button.Location = new System.Drawing.Point(4, 4);
+            this.back_button.Location = new System.Drawing.Point(4, 32);
             this.back_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(200, 62);
