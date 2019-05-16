@@ -223,7 +223,7 @@ namespace hangman
                     gameOverLabel.Visible = true;
                     
                     gameOverLabel.ForeColor = System.Drawing.Color.DarkRed;
-                    gameOverLabel.Text = gameOverLabel.Text + "\nThe word was " + game.word;
+                    gameOverLabel.Text = gameOverLabel.Text + "\nThe word was: " + game.word;
                     headImage.Image = Properties.Resources.cry;
                     input.Enabled = false;
                     break;
