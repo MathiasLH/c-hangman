@@ -12,7 +12,7 @@ namespace hangman
         public static string FetchWord(int language)
         {
             String downloadString = "";
-            System.Net.WebClient client = new System.Net.WebClient();
+            System.Net.WebClient client = new System.Net.WebClient { Encoding = System.Text.Encoding.UTF8 };
             if (language == 0)
             {
                 downloadString = client.DownloadString("https://pastebin.com/raw/S05WH6qd");
