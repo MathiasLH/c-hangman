@@ -117,4 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>SaveMe is a simple word guessing game. 
+
+Players try to figure out an unknown word by guessing letters. 
+
+If too many letters which do not appear in the word are guessed, the friend will die.
+
+
+Setup the game by designing your own friend. 
+
+Go back to the menu and click on the ‘Play!’ button to start the game.
+
+For every letter in the word you are supposed to guess, is shown as stars ‘*’.
+
+As letters in the word are guessed wrong, they will be shown under the stars. 
+
+If the letter is correct it will be shown instead of a star. 
+
+Every time a letter is guessed wrong a body part from your friend will disappear. 
+
+The game is finished when only the head remains.</value>
+  </data>
 </root>
