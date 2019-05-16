@@ -34,27 +34,6 @@ class GameLogic
         numberOfLives = 5;
     }
 
-    public void resetGame(String playWord)
-    {
-        Console.WriteLine("playword is: " + playWord);
-
-        letterArray = new string[playWord.Length];
-        char[] charArr = playWord.ToCharArray();
-        for (int i = 0; i < playWord.Length; i++)
-        {
-            letterArray[i] = charArr[i].ToString();
-        }
-
-        displayWord = new String[playWord.Length];
-        lettersLeft = playWord.Length;
-
-        for (int i = 0; i < displayWord.Length; i++)
-        {
-            displayWord[i] = "*";
-        };
-        numberOfLives = 5;
-    }
-
     //returns 0 if letter is incorrect format, 1 if letter already guessed, 2 if letter is accepted as guess, 3 if letter is wrong. 
     public Int32 guessLetter(String input)
     {
@@ -157,5 +136,3 @@ class GameLogic
         return returnString;
     }
 }
-
-
