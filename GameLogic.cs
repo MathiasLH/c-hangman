@@ -85,6 +85,22 @@ class GameLogic
 
     private bool checkRegex(String letter)
     {
+        int langInt=Globals.language;
+        switch (langInt)
+        {
+            case 0:
+                Regex _regex = new Regex(@"([a-z æ ø å])");
+                break;
+            case 1:
+                Regex _regex = new Regex(@"([a-z])");
+                break;
+            case 2:
+                Regex _regex = new Regex(@"([a-z ö ü ä])");
+                break;
+            default:
+                Console.WriteLine("Language Default Hit");
+                break;
+        }
         Regex _regex = new Regex(@"[^ 0 - 9]");
         //check if letter is correct format
         Match match = _regex.Match(letter);
