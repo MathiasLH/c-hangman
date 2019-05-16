@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
 
 namespace hangman
 {
@@ -99,7 +100,34 @@ namespace hangman
             leftLegImage.Image = leftLegImages[bodyParts[4]];
             //currentRightLeg = bodyParts[5];
             rightLegImage.Image = rightLegImages[bodyParts[5]];
-            String fetchedWord = wordFetcher.FetchWord(Globals.language);
+            String fetchedWord = "";
+            if (CheckConnection()) { 
+            fetchedWord = wordFetcher.FetchWord(Globals.language);
+            }
+            else
+            {
+                String[] a;
+                Random rnd = new Random();
+                int index = rnd.Next(4);
+                switch (Globals.language)
+                {
+                    case 0:
+                        a = new String[]{ "hund", "stakit", "flødebolle", "hårelastik" };
+                        fetchedWord = a[index];
+                        break;
+                    case 1:
+                        a = new String[] { "dog", "fence", "watermelon", "rubberband" };
+                        fetchedWord = a[index];
+                        break;
+                    case 2:
+                        a = new String[] { "hund", "zaun", "wassermelone", "haarband" };
+                        fetchedWord = a[index];
+                        break;
+                    default:
+                        Console.WriteLine("Default hit in wordFecther No internet connection");
+                        break;
+                }
+            }
             String testWord = "yeet";
             game = new GameLogic(fetchedWord);
             displayWordBox.Text = game.getDisplayWord();
@@ -112,6 +140,24 @@ namespace hangman
             }else if(Globals.language == 2)
             {
                 langaugeLabel.Text = langaugeLabel.Text + "German";
+            }
+        }
+
+        //handles no internet connection to set up playword
+        private bool CheckConnection()
+        {
+            WebClient client = new WebClient();
+            try
+            {
+                using (client.OpenRead("http://www.google.com")) {
+                }
+                return true;
+            }
+            catch(WebException)
+            {
+                Console.WriteLine("No Internet connection");
+                MessageBox.Show("No Internet connection. You're playing on a default list.","ERROR: NO INTERNET CONNECTION");
+                return false;           
             }
         }
 
