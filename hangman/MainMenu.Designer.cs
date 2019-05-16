@@ -53,10 +53,14 @@
             // quit_button
             // 
             this.quit_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
+            this.quit_button.FlatAppearance.BorderSize = 0;
+            this.quit_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.quit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.quit_button.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quit_button.Location = new System.Drawing.Point(3, 293);
+            this.quit_button.Location = new System.Drawing.Point(0, 361);
+            this.quit_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.quit_button.Name = "quit_button";
-            this.quit_button.Size = new System.Drawing.Size(150, 50);
+            this.quit_button.Size = new System.Drawing.Size(310, 62);
             this.quit_button.TabIndex = 7;
             this.quit_button.Text = "Quit";
             this.quit_button.UseVisualStyleBackColor = false;
@@ -65,10 +69,14 @@
             // settings_button
             // 
             this.settings_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
+            this.settings_button.FlatAppearance.BorderSize = 0;
+            this.settings_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.settings_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settings_button.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settings_button.Location = new System.Drawing.Point(3, 204);
+            this.settings_button.Location = new System.Drawing.Point(0, 251);
+            this.settings_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.settings_button.Name = "settings_button";
-            this.settings_button.Size = new System.Drawing.Size(150, 50);
+            this.settings_button.Size = new System.Drawing.Size(310, 62);
             this.settings_button.TabIndex = 6;
             this.settings_button.Text = "Settings";
             this.settings_button.UseVisualStyleBackColor = false;
@@ -77,10 +85,14 @@
             // char_button
             // 
             this.char_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
+            this.char_button.FlatAppearance.BorderSize = 0;
+            this.char_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
+            this.char_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.char_button.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.char_button.Location = new System.Drawing.Point(3, 114);
+            this.char_button.Location = new System.Drawing.Point(0, 140);
+            this.char_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.char_button.Name = "char_button";
-            this.char_button.Size = new System.Drawing.Size(150, 50);
+            this.char_button.Size = new System.Drawing.Size(310, 62);
             this.char_button.TabIndex = 5;
             this.char_button.Text = "Select character";
             this.char_button.UseVisualStyleBackColor = false;
@@ -88,12 +100,15 @@
             // 
             // play_button
             // 
-            this.play_button.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.play_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(203)))), ((int)(((byte)(213)))));
+            this.play_button.FlatAppearance.BorderSize = 0;
+            this.play_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.play_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.play_button.Font = new System.Drawing.Font("Ravie", 10F);
-            this.play_button.Location = new System.Drawing.Point(3, 26);
+            this.play_button.Location = new System.Drawing.Point(0, 32);
+            this.play_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.play_button.Name = "play_button";
-            this.play_button.Size = new System.Drawing.Size(150, 50);
+            this.play_button.Size = new System.Drawing.Size(310, 62);
             this.play_button.TabIndex = 4;
             this.play_button.Text = "Play!";
             this.play_button.UseVisualStyleBackColor = false;
@@ -103,9 +118,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(524, 81);
+            this.label1.Location = new System.Drawing.Point(699, 100);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 30);
+            this.label1.Size = new System.Drawing.Size(155, 36);
             this.label1.TabIndex = 57;
             this.label1.Text = "SaveMe";
             // 
@@ -113,18 +129,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Ravie", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(483, 59);
+            this.label2.Location = new System.Drawing.Point(644, 73);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 22);
+            this.label2.Size = new System.Drawing.Size(238, 27);
             this.label2.TabIndex = 58;
             this.label2.Text = "Are you ready to";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::hangman.Properties.Resources._53082594_368619943867074_5772997767416774656_n;
-            this.pictureBox1.Location = new System.Drawing.Point(470, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(627, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(218, 191);
+            this.pictureBox1.Size = new System.Drawing.Size(291, 235);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 59;
             this.pictureBox1.TabStop = false;
@@ -132,61 +150,67 @@
             // leftLegImage
             // 
             this.leftLegImage.Image = global::hangman.Properties.Resources.leftleg1;
-            this.leftLegImage.Location = new System.Drawing.Point(255, 243);
+            this.leftLegImage.Location = new System.Drawing.Point(340, 299);
+            this.leftLegImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leftLegImage.Name = "leftLegImage";
-            this.leftLegImage.Size = new System.Drawing.Size(100, 100);
+            this.leftLegImage.Size = new System.Drawing.Size(133, 123);
             this.leftLegImage.TabIndex = 56;
             this.leftLegImage.TabStop = false;
             // 
             // rightLegImage
             // 
             this.rightLegImage.Image = global::hangman.Properties.Resources.rightleg1;
-            this.rightLegImage.Location = new System.Drawing.Point(355, 243);
+            this.rightLegImage.Location = new System.Drawing.Point(473, 299);
+            this.rightLegImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rightLegImage.Name = "rightLegImage";
-            this.rightLegImage.Size = new System.Drawing.Size(100, 100);
+            this.rightLegImage.Size = new System.Drawing.Size(133, 123);
             this.rightLegImage.TabIndex = 55;
             this.rightLegImage.TabStop = false;
             // 
             // leftArmImage
             // 
             this.leftArmImage.Image = global::hangman.Properties.Resources.leftarm1;
-            this.leftArmImage.Location = new System.Drawing.Point(268, 143);
+            this.leftArmImage.Location = new System.Drawing.Point(357, 176);
+            this.leftArmImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.leftArmImage.Name = "leftArmImage";
-            this.leftArmImage.Size = new System.Drawing.Size(60, 100);
+            this.leftArmImage.Size = new System.Drawing.Size(80, 123);
             this.leftArmImage.TabIndex = 54;
             this.leftArmImage.TabStop = false;
             // 
             // rightArmImage
             // 
             this.rightArmImage.Image = global::hangman.Properties.Resources.rightarm1;
-            this.rightArmImage.Location = new System.Drawing.Point(382, 143);
+            this.rightArmImage.Location = new System.Drawing.Point(509, 176);
+            this.rightArmImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rightArmImage.Name = "rightArmImage";
-            this.rightArmImage.Size = new System.Drawing.Size(60, 100);
+            this.rightArmImage.Size = new System.Drawing.Size(80, 123);
             this.rightArmImage.TabIndex = 53;
             this.rightArmImage.TabStop = false;
             // 
             // torsoImage
             // 
             this.torsoImage.Image = global::hangman.Properties.Resources.torso1;
-            this.torsoImage.Location = new System.Drawing.Point(325, 143);
+            this.torsoImage.Location = new System.Drawing.Point(433, 176);
+            this.torsoImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.torsoImage.Name = "torsoImage";
-            this.torsoImage.Size = new System.Drawing.Size(60, 100);
+            this.torsoImage.Size = new System.Drawing.Size(80, 123);
             this.torsoImage.TabIndex = 52;
             this.torsoImage.TabStop = false;
             // 
             // headImage
             // 
             this.headImage.Image = global::hangman.Properties.Resources.head1;
-            this.headImage.Location = new System.Drawing.Point(302, 43);
+            this.headImage.Location = new System.Drawing.Point(403, 53);
+            this.headImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.headImage.Name = "headImage";
-            this.headImage.Size = new System.Drawing.Size(100, 100);
+            this.headImage.Size = new System.Drawing.Size(133, 123);
             this.headImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.headImage.TabIndex = 51;
             this.headImage.TabStop = false;
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -201,8 +225,9 @@
             this.Controls.Add(this.char_button);
             this.Controls.Add(this.play_button);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainMenu";
-            this.Size = new System.Drawing.Size(710, 387);
+            this.Size = new System.Drawing.Size(947, 476);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftLegImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightLegImage)).EndInit();

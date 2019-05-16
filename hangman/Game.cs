@@ -19,7 +19,6 @@ namespace hangman
         Bitmap[] rightArmImages;
         Bitmap[] leftLegImages;
         Bitmap[] rightLegImages;
-        //int currentHead, currentTorso, currentLeftArm, currentRightArm, currentLeftLeg, currentRightLeg;
         GameLogic game;
         
         public Game()
@@ -31,7 +30,6 @@ namespace hangman
             Bitmap head4Image = hangman.Properties.Resources.trump;
             Bitmap head5Image = hangman.Properties.Resources.shrek;
             Bitmap head6Image = hangman.Properties.Resources.statuehead;
-            //Bitmap head7Image = hangman.Properties.Resources.nygiraf;
             Bitmap head8Image = hangman.Properties.Resources.popeye;
             headImages = new Bitmap[7];
             headImages[0] = head1Image;
@@ -88,17 +86,11 @@ namespace hangman
             rightLegImages[3] = rightLeg4Image;
             rightLegImages[4] = rightLeg5Image;
             int[] bodyParts = Globals.bodyParts;
-            //currentHead = bodyParts[0];
             headImage.Image = headImages[bodyParts[0]];
-            //currentTorso = bodyParts[1];
             torsoImage.Image = torsoImages[bodyParts[1]];
-            //currentLeftArm = bodyParts[2];
             leftArmImage.Image = leftArmImages[bodyParts[2]];
-            //currentRightArm = bodyParts[3];
             rightArmImage.Image = rightArmImages[bodyParts[3]];
-            //currentLeftLeg = bodyParts[4];
             leftLegImage.Image = leftLegImages[bodyParts[4]];
-            //currentRightLeg = bodyParts[5];
             rightLegImage.Image = rightLegImages[bodyParts[5]];
             String fetchedWord = "";
             if (CheckConnection()) { 

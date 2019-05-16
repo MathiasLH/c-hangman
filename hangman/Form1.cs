@@ -26,5 +26,10 @@ namespace hangman
             SoundPlayer sound = new SoundPlayer(Properties.Resources.wii);
             sound.PlayLooping();
         }
+
+        private void MainMenu1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
