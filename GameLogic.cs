@@ -85,6 +85,7 @@ class GameLogic
 
     private bool checkRegex(String letter)
     {
+        //finds langauge in static global
         int langInt=Globals.language;
         switch (langInt)
         {
