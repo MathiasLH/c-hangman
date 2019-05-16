@@ -216,8 +216,12 @@
     <None Include="Resources\53082594_368619943867074_5772997767416774656_n.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\cry.gif" />
-    <None Include="Resources\cry1.gif" />
+    <None Include="Resources\02_Shop Channel %281%29.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\wii.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
