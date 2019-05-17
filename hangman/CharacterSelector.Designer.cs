@@ -68,11 +68,10 @@
             this.back_button.FlatAppearance.BorderSize = 0;
             this.back_button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.back_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.back_button.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_button.Location = new System.Drawing.Point(0, 32);
-            this.back_button.Margin = new System.Windows.Forms.Padding(4);
+            this.back_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back_button.Location = new System.Drawing.Point(0, 26);
             this.back_button.Name = "back_button";
-            this.back_button.Size = new System.Drawing.Size(200, 62);
+            this.back_button.Size = new System.Drawing.Size(232, 50);
             this.back_button.TabIndex = 9;
             this.back_button.Text = "Go back";
             this.back_button.UseVisualStyleBackColor = false;
@@ -84,11 +83,10 @@
             this.nextRightLegButton.FlatAppearance.BorderSize = 0;
             this.nextRightLegButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.nextRightLegButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextRightLegButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextRightLegButton.Location = new System.Drawing.Point(171, 378);
-            this.nextRightLegButton.Margin = new System.Windows.Forms.Padding(4);
+            this.nextRightLegButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextRightLegButton.Location = new System.Drawing.Point(153, 325);
             this.nextRightLegButton.Name = "nextRightLegButton";
-            this.nextRightLegButton.Size = new System.Drawing.Size(33, 31);
+            this.nextRightLegButton.Size = new System.Drawing.Size(25, 25);
             this.nextRightLegButton.TabIndex = 44;
             this.nextRightLegButton.Text = "⇾";
             this.nextRightLegButton.UseVisualStyleBackColor = false;
@@ -100,11 +98,10 @@
             this.prevRightLegButton.FlatAppearance.BorderSize = 0;
             this.prevRightLegButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.prevRightLegButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prevRightLegButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevRightLegButton.Location = new System.Drawing.Point(20, 377);
-            this.prevRightLegButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prevRightLegButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevRightLegButton.Location = new System.Drawing.Point(40, 325);
             this.prevRightLegButton.Name = "prevRightLegButton";
-            this.prevRightLegButton.Size = new System.Drawing.Size(33, 31);
+            this.prevRightLegButton.Size = new System.Drawing.Size(25, 25);
             this.prevRightLegButton.TabIndex = 43;
             this.prevRightLegButton.Text = "⇽\r\n";
             this.prevRightLegButton.UseVisualStyleBackColor = false;
@@ -113,11 +110,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(61, 378);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(86, 330);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 19);
+            this.label7.Size = new System.Drawing.Size(44, 13);
             this.label7.TabIndex = 42;
             this.label7.Text = "right leg";
             // 
@@ -127,11 +123,10 @@
             this.nextLeftLegButton.FlatAppearance.BorderSize = 0;
             this.nextLeftLegButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.nextLeftLegButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextLeftLegButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextLeftLegButton.Location = new System.Drawing.Point(171, 339);
-            this.nextLeftLegButton.Margin = new System.Windows.Forms.Padding(4);
+            this.nextLeftLegButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextLeftLegButton.Location = new System.Drawing.Point(153, 280);
             this.nextLeftLegButton.Name = "nextLeftLegButton";
-            this.nextLeftLegButton.Size = new System.Drawing.Size(33, 31);
+            this.nextLeftLegButton.Size = new System.Drawing.Size(25, 25);
             this.nextLeftLegButton.TabIndex = 41;
             this.nextLeftLegButton.Text = "⇾";
             this.nextLeftLegButton.UseVisualStyleBackColor = false;
@@ -143,11 +138,10 @@
             this.prevLeftLegButton.FlatAppearance.BorderSize = 0;
             this.prevLeftLegButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.prevLeftLegButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prevLeftLegButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevLeftLegButton.Location = new System.Drawing.Point(20, 334);
-            this.prevLeftLegButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prevLeftLegButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevLeftLegButton.Location = new System.Drawing.Point(40, 280);
             this.prevLeftLegButton.Name = "prevLeftLegButton";
-            this.prevLeftLegButton.Size = new System.Drawing.Size(33, 31);
+            this.prevLeftLegButton.Size = new System.Drawing.Size(25, 25);
             this.prevLeftLegButton.TabIndex = 40;
             this.prevLeftLegButton.Text = "⇽\r\n";
             this.prevLeftLegButton.UseVisualStyleBackColor = false;
@@ -156,11 +150,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(69, 340);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(89, 285);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 19);
+            this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 39;
             this.label6.Text = "left leg";
             // 
@@ -170,11 +163,10 @@
             this.nextRightArmButton.FlatAppearance.BorderSize = 0;
             this.nextRightArmButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.nextRightArmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextRightArmButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextRightArmButton.Location = new System.Drawing.Point(171, 301);
-            this.nextRightArmButton.Margin = new System.Windows.Forms.Padding(4);
+            this.nextRightArmButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextRightArmButton.Location = new System.Drawing.Point(153, 235);
             this.nextRightArmButton.Name = "nextRightArmButton";
-            this.nextRightArmButton.Size = new System.Drawing.Size(33, 31);
+            this.nextRightArmButton.Size = new System.Drawing.Size(25, 25);
             this.nextRightArmButton.TabIndex = 38;
             this.nextRightArmButton.Text = "⇾";
             this.nextRightArmButton.UseVisualStyleBackColor = false;
@@ -186,11 +178,10 @@
             this.prevRightArmButton.FlatAppearance.BorderSize = 0;
             this.prevRightArmButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.prevRightArmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prevRightArmButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevRightArmButton.Location = new System.Drawing.Point(20, 295);
-            this.prevRightArmButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prevRightArmButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevRightArmButton.Location = new System.Drawing.Point(40, 235);
             this.prevRightArmButton.Name = "prevRightArmButton";
-            this.prevRightArmButton.Size = new System.Drawing.Size(33, 31);
+            this.prevRightArmButton.Size = new System.Drawing.Size(25, 25);
             this.prevRightArmButton.TabIndex = 37;
             this.prevRightArmButton.Text = "⇽\r\n";
             this.prevRightArmButton.UseVisualStyleBackColor = false;
@@ -199,11 +190,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(61, 301);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(86, 240);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 19);
+            this.label5.Size = new System.Drawing.Size(47, 13);
             this.label5.TabIndex = 36;
             this.label5.Text = "right arm";
             // 
@@ -213,11 +203,10 @@
             this.nextLeftArmButton.FlatAppearance.BorderSize = 0;
             this.nextLeftArmButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.nextLeftArmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextLeftArmButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextLeftArmButton.Location = new System.Drawing.Point(171, 256);
-            this.nextLeftArmButton.Margin = new System.Windows.Forms.Padding(4);
+            this.nextLeftArmButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextLeftArmButton.Location = new System.Drawing.Point(153, 190);
             this.nextLeftArmButton.Name = "nextLeftArmButton";
-            this.nextLeftArmButton.Size = new System.Drawing.Size(33, 31);
+            this.nextLeftArmButton.Size = new System.Drawing.Size(25, 25);
             this.nextLeftArmButton.TabIndex = 35;
             this.nextLeftArmButton.Text = "⇾";
             this.nextLeftArmButton.UseVisualStyleBackColor = false;
@@ -229,11 +218,10 @@
             this.prevLeftArmButton.FlatAppearance.BorderSize = 0;
             this.prevLeftArmButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.prevLeftArmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prevLeftArmButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevLeftArmButton.Location = new System.Drawing.Point(20, 255);
-            this.prevLeftArmButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prevLeftArmButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevLeftArmButton.Location = new System.Drawing.Point(40, 190);
             this.prevLeftArmButton.Name = "prevLeftArmButton";
-            this.prevLeftArmButton.Size = new System.Drawing.Size(33, 31);
+            this.prevLeftArmButton.Size = new System.Drawing.Size(25, 25);
             this.prevLeftArmButton.TabIndex = 34;
             this.prevLeftArmButton.Text = "⇽\r\n";
             this.prevLeftArmButton.UseVisualStyleBackColor = false;
@@ -242,11 +230,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(71, 261);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(88, 195);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 19);
+            this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 33;
             this.label4.Text = "left arm";
             // 
@@ -256,11 +243,10 @@
             this.nextTorsoButton.FlatAppearance.BorderSize = 0;
             this.nextTorsoButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.nextTorsoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextTorsoButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextTorsoButton.Location = new System.Drawing.Point(171, 215);
-            this.nextTorsoButton.Margin = new System.Windows.Forms.Padding(4);
+            this.nextTorsoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextTorsoButton.Location = new System.Drawing.Point(153, 145);
             this.nextTorsoButton.Name = "nextTorsoButton";
-            this.nextTorsoButton.Size = new System.Drawing.Size(33, 31);
+            this.nextTorsoButton.Size = new System.Drawing.Size(25, 25);
             this.nextTorsoButton.TabIndex = 32;
             this.nextTorsoButton.Text = "⇾";
             this.nextTorsoButton.UseVisualStyleBackColor = false;
@@ -272,11 +258,10 @@
             this.prevTorsoButton.FlatAppearance.BorderSize = 0;
             this.prevTorsoButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.prevTorsoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prevTorsoButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevTorsoButton.Location = new System.Drawing.Point(20, 215);
-            this.prevTorsoButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prevTorsoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevTorsoButton.Location = new System.Drawing.Point(40, 145);
             this.prevTorsoButton.Name = "prevTorsoButton";
-            this.prevTorsoButton.Size = new System.Drawing.Size(33, 31);
+            this.prevTorsoButton.Size = new System.Drawing.Size(25, 25);
             this.prevTorsoButton.TabIndex = 31;
             this.prevTorsoButton.Text = "⇽\r\n";
             this.prevTorsoButton.UseVisualStyleBackColor = false;
@@ -285,22 +270,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(83, 221);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(94, 150);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 19);
+            this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 30;
             this.label3.Text = "torso";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Ravie", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(83, 177);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(94, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 19);
+            this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 29;
             this.label2.Text = "head";
             // 
@@ -310,11 +293,10 @@
             this.prevHeadButton.FlatAppearance.BorderSize = 0;
             this.prevHeadButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.prevHeadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prevHeadButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prevHeadButton.Location = new System.Drawing.Point(20, 171);
-            this.prevHeadButton.Margin = new System.Windows.Forms.Padding(4);
+            this.prevHeadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prevHeadButton.Location = new System.Drawing.Point(40, 100);
             this.prevHeadButton.Name = "prevHeadButton";
-            this.prevHeadButton.Size = new System.Drawing.Size(33, 31);
+            this.prevHeadButton.Size = new System.Drawing.Size(25, 25);
             this.prevHeadButton.TabIndex = 27;
             this.prevHeadButton.Text = "⇽\r\n";
             this.prevHeadButton.UseVisualStyleBackColor = false;
@@ -323,60 +305,54 @@
             // leftLegImage
             // 
             this.leftLegImage.Image = global::hangman.Properties.Resources.leftleg1;
-            this.leftLegImage.Location = new System.Drawing.Point(340, 299);
-            this.leftLegImage.Margin = new System.Windows.Forms.Padding(4);
+            this.leftLegImage.Location = new System.Drawing.Point(255, 243);
             this.leftLegImage.Name = "leftLegImage";
-            this.leftLegImage.Size = new System.Drawing.Size(133, 123);
+            this.leftLegImage.Size = new System.Drawing.Size(100, 100);
             this.leftLegImage.TabIndex = 50;
             this.leftLegImage.TabStop = false;
             // 
             // rightLegImage
             // 
             this.rightLegImage.Image = global::hangman.Properties.Resources.rightleg1;
-            this.rightLegImage.Location = new System.Drawing.Point(473, 299);
-            this.rightLegImage.Margin = new System.Windows.Forms.Padding(4);
+            this.rightLegImage.Location = new System.Drawing.Point(355, 243);
             this.rightLegImage.Name = "rightLegImage";
-            this.rightLegImage.Size = new System.Drawing.Size(133, 123);
+            this.rightLegImage.Size = new System.Drawing.Size(100, 100);
             this.rightLegImage.TabIndex = 49;
             this.rightLegImage.TabStop = false;
             // 
             // leftArmImage
             // 
             this.leftArmImage.Image = global::hangman.Properties.Resources.leftarm1;
-            this.leftArmImage.Location = new System.Drawing.Point(357, 176);
-            this.leftArmImage.Margin = new System.Windows.Forms.Padding(4);
+            this.leftArmImage.Location = new System.Drawing.Point(268, 143);
             this.leftArmImage.Name = "leftArmImage";
-            this.leftArmImage.Size = new System.Drawing.Size(80, 123);
+            this.leftArmImage.Size = new System.Drawing.Size(60, 100);
             this.leftArmImage.TabIndex = 48;
             this.leftArmImage.TabStop = false;
             // 
             // rightArmImage
             // 
             this.rightArmImage.Image = global::hangman.Properties.Resources.rightarm1;
-            this.rightArmImage.Location = new System.Drawing.Point(509, 176);
-            this.rightArmImage.Margin = new System.Windows.Forms.Padding(4);
+            this.rightArmImage.Location = new System.Drawing.Point(382, 143);
             this.rightArmImage.Name = "rightArmImage";
-            this.rightArmImage.Size = new System.Drawing.Size(80, 123);
+            this.rightArmImage.Size = new System.Drawing.Size(60, 100);
             this.rightArmImage.TabIndex = 47;
             this.rightArmImage.TabStop = false;
             // 
             // torsoImage
             // 
             this.torsoImage.Image = global::hangman.Properties.Resources.torso1;
-            this.torsoImage.Location = new System.Drawing.Point(433, 176);
-            this.torsoImage.Margin = new System.Windows.Forms.Padding(4);
+            this.torsoImage.Location = new System.Drawing.Point(325, 143);
             this.torsoImage.Name = "torsoImage";
-            this.torsoImage.Size = new System.Drawing.Size(80, 123);
+            this.torsoImage.Size = new System.Drawing.Size(60, 100);
             this.torsoImage.TabIndex = 46;
             this.torsoImage.TabStop = false;
             // 
             // headImage
             // 
             this.headImage.Image = global::hangman.Properties.Resources.head1;
-            this.headImage.Location = new System.Drawing.Point(403, 53);
-            this.headImage.Margin = new System.Windows.Forms.Padding(4);
+            this.headImage.Location = new System.Drawing.Point(302, 43);
             this.headImage.Name = "headImage";
-            this.headImage.Size = new System.Drawing.Size(133, 123);
+            this.headImage.Size = new System.Drawing.Size(100, 100);
             this.headImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.headImage.TabIndex = 45;
             this.headImage.TabStop = false;
@@ -387,11 +363,10 @@
             this.nextHeadButton.FlatAppearance.BorderSize = 0;
             this.nextHeadButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.MenuHighlight;
             this.nextHeadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nextHeadButton.Font = new System.Drawing.Font("Ravie", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextHeadButton.Location = new System.Drawing.Point(171, 171);
-            this.nextHeadButton.Margin = new System.Windows.Forms.Padding(4);
+            this.nextHeadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextHeadButton.Location = new System.Drawing.Point(153, 100);
             this.nextHeadButton.Name = "nextHeadButton";
-            this.nextHeadButton.Size = new System.Drawing.Size(33, 31);
+            this.nextHeadButton.Size = new System.Drawing.Size(25, 25);
             this.nextHeadButton.TabIndex = 52;
             this.nextHeadButton.Text = "⇾";
             this.nextHeadButton.UseVisualStyleBackColor = false;
@@ -399,7 +374,7 @@
             // 
             // CharacterSelector
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.nextHeadButton);
             this.Controls.Add(this.leftLegImage);
@@ -426,9 +401,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.prevHeadButton);
             this.Controls.Add(this.back_button);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CharacterSelector";
-            this.Size = new System.Drawing.Size(947, 476);
+            this.Size = new System.Drawing.Size(710, 387);
             ((System.ComponentModel.ISupportInitialize)(this.leftLegImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightLegImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.leftArmImage)).EndInit();
